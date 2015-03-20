@@ -22,7 +22,7 @@ A tool/library for analyzing eDeploy AHC results
 
 
 %prep
-%setup -q -n cardiff-%{version}
+%setup -q -n cardiff-%{upstream_version}
 
 # Remove the requirements file so that pbr hooks don't add it
 # to distutils requires_dist config
